@@ -1,0 +1,8 @@
+profiles:
+  local:
+    - docker-compose.yml
+    - local
+
+tasks:
+  runserver:
+    command: compose-flow compose run --service-ports app npm start
