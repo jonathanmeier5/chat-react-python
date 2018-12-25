@@ -5,4 +5,4 @@ profiles:
 
 tasks:
   runserver:
-    command: compose-flow compose run --service-ports app npm start
+    command: compose-flow compose run --service-ports app npm run start
