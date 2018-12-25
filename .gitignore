@@ -1,1 +1,2 @@
 compose-flow-*
+**/*/node_modules/**/*
